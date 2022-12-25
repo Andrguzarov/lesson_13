@@ -19,7 +19,7 @@ var myNum = 10;
 var myStr = 'строка';
 var myBool = true;
 var myArr = [1, 2, 3, 4, 5]
-var myObj = { first: 'First name', last: 'Last Name' };
+var myObj = { first: 'First Name', last: 'Last Name' };
 
 /*
  * #2
@@ -123,7 +123,9 @@ console.log(myPow);
 // Мама мыла раму, рама мыла маму
 
 // strObj
-var strObj = { str: 'Мама мыла раму, рама мыла маму', length: 30 };
+var strObj = {};
+strObj.str = 'Мама мыла раму, рама мыла маму';
+strObj.length = strObj.str.length;
 
 /*
  * #7
